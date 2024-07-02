@@ -1,0 +1,24 @@
+1)Ubuntu – Redhat – Fedora 
+2)Man command is used to display the user manual of any command that we can run on the terminal.
+3)rmdir - remove empty directories.
+  rm - remove files or directories. 
+4)
+  a)can’t remove the directory as it is not empty , i used rm –r dir11/*  command then i used rmdir dir11 .
+  b) OldFiles is Not a Directory , rmdir -p ./Documents/OldFiles command
+  c) Absolute Path is /home/mohamed/docs/mycv
+5) cp /etc/passwd /home/mohamed/mypasswd
+6) mv mypasswd oldpasswd
+7) cd – cd ~ - cd $HOME - cd /home/your_username 
+8) /usr/bin$ ls w*
+w           wc      whereis   whoami                wpa_passphrase
+wall        wdctl   which     whoopsie              w.procps
+watch       wget    whiptail  whoopsie-preferences  write
+watchgnupg  whatis  who       word-list-compress
+9) type
+Display information about command type
+10) cat - chrt 
+11) man –k “read”
+12) command option  searches the manual page names and descriptions for the keyword you provide. This is useful for finding commands related to a specific topic.
+
+
+
