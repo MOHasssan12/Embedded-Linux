@@ -1,0 +1,709 @@
+    1  wget –O teams.deb https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
+    2  timedatectl
+    3  clear
+    4  timedatectl list-timezones
+    5  sudo timedatectl set-timezone Africa/Cairo
+    6  sudo apt-get install <package name>
+    7  top
+    8  sudo apt-get
+    9  update
+   10  sudo apt update
+   11  sudo apt upgrade
+   12  lspci
+   13  lsusb
+   14  lsmod
+   15  sudo lshw -short
+   16  ls
+   17  /
+   18  lspci -k
+   19  sudo apt update
+   20  sudo ubuntu-drivers autoinstall
+   21  sudo apt install nvidia-driver-470
+   22  free -h
+   23  top
+   24  free -h 
+   25  ls
+   26  cd Downloads
+   27  ~
+   28  ..
+   29  cd ..
+   30  cd Downloads
+   31  ls
+   32  touch file1
+   33  ls
+   34  mkdir dir1
+   35  ls
+   36  mv file1 dir1
+   37  ls
+   38  cd dir1
+   39  ls
+   40  ~
+   41  ..
+   42  cd ~
+   43  uname -a
+   44  df -h
+   45  ls
+   46  ls -d */
+   47  gcc -v
+   48  sudo apt-get update
+   49  sudo apt-get install build-essential gdb
+   50  g++ -v
+   51  gcc file1.cpp
+   52  ./file1.cpp
+   53  gcc -v
+   54  gcc file1.cpp
+   55  g++ file1.cpp
+   56  ./auto
+   57  ./a.out 
+   58  touch mycode.cpp
+   59  gcc mycode.cpp 
+   60  g++ mycode.cpp 
+   61  ./a.out 
+   62  code .
+   63  pwd
+   64  gdp
+   65  -help
+   66  --help
+   67  dhelp
+   68  ls
+   69  objdumb -t ./strings 
+   70  objdump -t ./strings 
+   71  cl
+   72  g++ mycode.cpp -o new
+   73  ./new
+   74  g++ file1.cpp 
+   75  ./a.out 
+   76  g++ mycode.cpp -o mycode
+   77  ./mycode
+   78  clear
+   79  ./mycode
+   80  g++ --ver
+   81  g++ --version
+   82  gdb --version
+   83  g++ mycode.cpp -o strings
+   84  g++ mycode.cpp
+   85  g++ mycode.cpp -o strings
+   86  ./strings 
+   87  g++ mycode.cpp -o strings
+   88  ./strings 
+   89  g++ mycode.cpp -o strings
+   90  ./strings 
+   91  mkdir Embedded Linux
+   92  rm Linux
+   93  rm -r Linux
+   94  rm -r Embedded
+   95  mkdir EmbeddedC++
+   96  ls
+   97  cd Embeddedc++
+   98  cd /Embeddedc++
+   99  ls
+  100  cd ./EmbeddedC++/
+  101  ..
+  102  cd ..
+  103  cd /Embeddedc++/
+  104  cd /Embeddedc++
+  105  cd ./EmbeddedC++
+  106  touch arrayOfStrings
+  107  ls
+  108  code.
+  109  code .
+  110  sudo apt update
+  111  sudo apt install language-pack-ar language-pack-gnome-ar
+  112  sudo apt install fonts-arabeyes fonts-hosny-amiri fonts-kacst fonts-kacst-one fonts-khmeros-core fonts-lklug-sinhala fonts-nanum fonts-noto-cjk fonts-noto-color-emoji fonts-noto-mono fonts-sil-abyssinica fonts-sil-padauk fonts-thai-tlwg fonts-tibetan-machine fonts-tlwg-purisa
+  113  man rm
+  114  man rmdir
+  115  man rm
+  116  pwd
+  117  mkdir dir1 docs Documents
+  118  mkdir dir1 docs 
+  119  ls
+  120  ./dir1
+  121  cd ./dir1
+  122  mkdir dir11 dir12
+  123  cd ./dir11
+  124  touch file1
+  125  ls
+  126  ~
+  127  cd ~
+  128  ./docs
+  129  cd ./docs
+  130  touch mycv
+  131  ls
+  132  cd ~
+  133  cd ./Documents
+  134  ls
+  135  touch OldFiles
+  136  ls
+  137  cd ~
+  138  rmdir dir11
+  139  cd ./dir1
+  140  ls
+  141  rmdir dir11
+  142  rmdir dir11 -r
+  143  rmdir -r dir11 
+  144  rmdir -r dir11
+  145  rmdir --help
+  146  rmdir --ignore-fail-on-non-empty dir11
+  147  ls
+  148  rmdir -p dir11
+  149  rmdir -r dir11
+  150  rmdir --r dir11
+  151  rm -r dir11/*
+  152  ls
+  153  rmdir dir11
+  154  ls
+  155  ~
+  156  cd ~
+  157  rmdir -p ./Documents/OldFiles
+  158  man rmdir
+  159  ls
+  160  cd Documents
+  161  ls
+  162  ~
+  163  cd ~
+  164  rmdir -p ./Documents
+  165  pwd
+  166  cd ./dosc/mycv
+  167  cd ./dosc
+  168  cd ./docs/mycv
+  169  cd ./docs
+  170  echo $USER
+  171  ~
+  172  cd ~
+  173  ls
+  174  cd /
+  175  ls
+  176  cd etc/
+  177  ls
+  178  cp /etc/passwd /home/mypasswd
+  179  cd /
+  180  man cp
+  181  ls
+  182  cp /etc/passwd /home/mohamed/mypasswd
+  183  cd home/
+  184  ls
+  185  cd mohamed
+  186  ls
+  187  mv mypasswd oldpasswd
+  188  ls
+  189  ls /usr/bin/w*
+  190  cd /
+  191  cd usr/bin
+  192  ls
+  193  ls w*
+  194  cd
+  195  cd ~
+  196  /
+  197  cd 
+  198  cd /
+  199  /usr/bin
+  200  cd usr/bin
+  201  cd /home/mohamed
+  202  type cd
+  203  type clear
+  204  type ls
+  205  /usr/bin/c*
+  206  cd /usr/bin/c*
+  207  cd /usr/bin
+  208  ls c*
+  209  ls
+  210  cd EmbeddedC++/
+  211  ls
+  212  cp bashscript.sh ~/Embedded-Linux
+  213  sudo apt install gcc-arm-linux-gnueabihf
+  214  ls
+  215  cd project/
+  216  gedit makefile2
+  217  make --version
+  218  ls
+  219  mkdir project
+  220  cd project/
+  221  touch main.c add.c add.h
+  222  ls
+  223  ./add.c
+  224  gedit add.c
+  225  gedit add.h
+  226  gedit main.c
+  227  touch makefile
+  228  ls
+  229  gedit makefile
+  230  q
+  231  make
+  232  gedit main.c
+  233  make
+  234  gedit main.c
+  235  make
+  236  make a.out
+  237  ls
+  238  ./a.out 
+  239  gedit makefile
+  240  touch clean
+  241  ls
+  242  make
+  243  ls
+  244  gedit makefile
+  245  make clean
+  246  gedit makefile
+  247  make clean
+  248  ls
+  249  touch dis
+  250  gedit dis
+  251  make dis
+  252  ls
+  253  make
+  254  mv dis makefile2
+  255  ls
+  256  make makefile2
+  257  echo "ha"
+  258  gedit makefile2
+  259  make -f makefile2
+  260  gedit makefile2
+  261  make -f makefile2
+  262  ls
+  263  gedit makefile
+  264  gedit makefile2
+  265  cd project
+  266  ls
+  267  gedit makefile2
+  268  make -f makefile2
+  269  gedit makefile2
+  270  make -f makefile2
+  271  ls
+  272  gedit makefile2
+  273  file a.out 
+  274  gedit makefile2
+  275  touch makefile3
+  276  gedit makefile3
+  277  man rm
+  278  man rmdir
+  279  mkdir -p ~/dir1/dir11
+  280  ls
+  281  cd dir1
+  282  mkdir dir12
+  283  cd dir11
+  284  touch file1
+  285  cd
+  286  mkdir docs
+  287  cd docs
+  288  touch mycv
+  289  cd
+  290  cd Documents
+  291  touch OldFiles
+  292  cd
+  293  cd dir1
+  294  rmdir dir11
+  295  rm -r dir11
+  296  cd
+  297  cd Documents/
+  298  rmdir -p OldFiles
+  299  cd
+  300  man rmdir
+  301  rmdir -p ./Documents/
+  302  /home/mohamed/docs/mycv
+  303  cd /home/mohamed/docs/mycv
+  304  cd /home/mohamed/docs/
+  305  cd
+  306  ls
+  307  cd EmbeddedC++/
+  308  ls
+  309  g++ -g arrayOfStrings.cpp 
+  310  ls
+  311  gdb a.out tui
+  312  gdb a.out
+  313  gdb a.out -tui
+  314  touch lab3
+  315  mv lab3 lab3.cpp
+  316  ./lab3
+  317  g++ mycode.cpp -o mycode
+  318  ./mycode
+  319  echo $SHELL
+  320  cat/etc/shells
+  321  ls f*
+  322  ls
+  323  cd docs/
+  324  ls
+  325  more mycv 
+  326  cat mycv mycv [B
+  327  ls
+  328  nano mycv
+  329  less mycv
+  330  more mycv
+  331  cat mycv
+  332  vi mycv
+  333  nano mycv
+  334  cat mycv
+  335  nano mycv
+  336  cat mycv
+  337  echo $HOSTNAME
+  338  echo $USER
+  339  env
+  340  ls
+  341  ls -a
+  342  gedit .profil
+  343  gedit .profile
+  344  env PATH
+  345  printenv PATH
+  346  sudo apt install vim
+  347  ls
+  348  cd dir1/
+  349  ls
+  350  touch filetest
+  351  vim filetest 
+  352  nano filetest 
+  353  mv filetest filetest.cpp
+  354  ./filetest.cpp
+  355  g++ filetest.cpp
+  356  ls
+  357  ./a.out 
+  358  cd
+  359  sudo apt install locate
+  360  locate myvc
+  361  locate --database=mycv
+  362  find i mycv
+  363  find -i mycv
+  364  find . -name mycv
+  365  find . -iname mycv
+  366  grep ./docs/mycv #include
+  367  g++ mycode.cpp -o mycode
+  368  ./mycode
+  369  g++ mycode.cpp -o mycode
+  370  ./mycode
+  371  ls
+  372  cd EmbedddedC++
+  373  cd EmbeddedC++/
+  374  ls
+  375  cd
+  376  cd ./Downloads/dir1/
+  377  ls
+  378  g++ mycode.pp -o mycode
+  379  g++ mycode.cpp -o mycode
+  380  ls
+  381  ./mycode
+  382  ls
+  383  cd project
+  384  CD SRC
+  385  cd src
+  386  ./calc
+  387  cd project
+  388  cd src/
+  389  ..
+  390  cd ..
+  391  cd build/
+  392  ./calc
+  393  cd project
+  394  cd build/
+  395  ./calc
+  396  cd src
+  397  gcc  main.c -o calc
+  398  gcc  main.c 
+  399  gcc -c  main.c 
+  400  gcc -c calc.c
+  401  gcc main.o calc.o -o calc
+  402  ./calc
+  403  rm main.o calc.o calc
+  404  gcc main.c calc.c
+  405  rm a.out 
+  406  ls
+  407  make
+  408  make clean
+  409  clean
+  410  make clean
+  411  rm main.o calc.o
+  412  make
+  413  ./calc
+  414  rm main.o clac.o calc 
+  415  rm calc.o
+  416  make
+  417  rm main.o calc.o
+  418  make
+  419  git clone <repository_url>
+  420  git clone https://github.com/MOHasssan12/Embedded-Linux.git
+  421  cd Embedded-Linux
+  422  ls
+  423  mkdir makefile
+  424  cp ~/project makefile
+  425  cp -r  ~/project makefile
+  426  ls
+  427  cd makefile/
+  428  ls
+  429  cd project
+  430  ls
+  431  cd ..
+  432  git add makefile
+  433  git commit -m "Add new directory with files"
+  434  git config --global user.email "eng.mohamedhassan844@gmail.com"
+  435  git config --global user.name "MOHasssan12"
+  436  Omit --global to set the identity only in this repository
+  437  git commit -m "Add new directory with files"
+  438  git push origin master
+  439  git status
+  440  git push -u origin master --force
+  441  mkdir bashsession
+  442  cd bashsession/
+  443  code .
+  444  bash file.sh
+  445  code .
+  446  pstree -p
+  447  test 1 -eq 1
+  448  echo $?
+  449  test 1 -eq 2
+  450  echo $?
+  451  man test
+  452  if [ 1 -qe 1 ] ; then echo "hello"; fi
+  453  if [ 1 -eq 1 ] ; then echo "hello"; fi
+  454  for var in "$string";do echo $var ; done
+  455  var="mohamed hassan hamed"
+  456  for var in "$string";do echo $var ; done
+  457  for var in "$var";do echo $var ; done
+  458  for var in "$var"; do echo $var; done
+  459  for vr in "$var"; do echo $var; done
+  460  for vr in "$var"; do echo $vr; done
+  461  var=5
+  462  var2=10
+  463  echo $(var + var2)
+  464  fruits=("apple""banana""cherry")
+  465  echo $fruits 
+  466  ruits=("apple ""banana ""cherry") 
+  467  echo $ruits 
+  468  echo ${ruits[*]} 
+  469  echo ${ruits[@]} 
+  470  ruits[5]="melon"
+  471  echo &ruits
+  472  echo &{ruits[@]}
+  473  echo &{ruits[*]}
+  474  echo $fruits
+  475  cd project
+  476  cd src
+  477  make
+  478  cd project
+  479  make
+  480  bash bash.sh
+  481  chmod +x bash.sh 
+  482  ./bash.sh 
+  483  ;s
+  484  ls
+  485  source bash.sh
+  486  git clone
+  487  git clone https://github.com/MOHasssan12/Embedded-Linux.git
+  488  cd EmbeddedC++/
+  489  ls
+  490  ./lab1
+  491  ./lab1.cpp
+  492  g++ lab1.cpp -o lab1
+  493  ./lab1
+  494  g++ lab1.cpp -o lab1
+  495  ./lab1
+  496  g++ lab1.cpp -o lab1
+  497  ./lab1
+  498  touch lab2.cpp
+  499  ./lab1
+  500  g++ lab2.cpp -o lab2
+  501  ./lab2
+  502  g++ lab2.cpp -o lab2
+  503  ./lab2
+  504  touch lab3.cpp
+  505  touch lab4.cpp
+  506  g++ task1.cpp -o task1
+  507  ./task1 
+  508  g++ task1.cpp -o task1
+  509  ./task1 
+  510  touch task2.cpp
+  511  g++ task2.cpp -o task2
+  512  ./task2 
+  513  g++ lab3.cpp -o lab3
+  514  ./lab3 
+  515  touch task3.cpp
+  516  g++ task3.cpp -o task3
+  517  ./task3 
+  518  touch task4.cpp
+  519  touch task5.cpp
+  520  g++ task4.cpp -o task4
+  521  ./task4 
+  522  g++ task4.cpp -o task4
+  523  ./task4 
+  524  g++ task4.cpp -o task4
+  525  ./task4 
+  526  g++ task4.cpp -o task4
+  527  ./task4 
+  528  g++ task4.cpp -o task4
+  529  ./task4 
+  530  g++ task4.cpp -o task4
+  531  ./task4 
+  532  g++ task4.cpp -o task4
+  533  ./task4 
+  534  g++ task5.cpp -o task5
+  535  ./task5
+  536  code .
+  537  code .
+  538  ls
+  539  cd C++/
+  540  mk dir day1-labs
+  541  mkdir day1-labs
+  542  mkdir day2-labs
+  543  cd day2-labs/
+  544  touch lab5.cpp
+  545  code lab5.cpp
+  546  g++ lab5.cpp -o lab5
+  547  ./lab5
+  548  mkdir file
+  549  touch main.c
+  550  ls
+  551  mv main.c ./file
+  552  ls
+  553  cd file
+  554  ls
+  555  code .
+  556  gcc main.c -o myexe
+  557  ls
+  558  ./myexe
+  559  man open
+  560  man write
+  561  cd file/
+  562  ls
+  563  ps -aux
+  564  ps -t
+  565  ps -at
+  566  ../proc/
+  567  cd
+  568  ls
+  569  ls -al
+  570  ls -a
+  571  find proc
+  572  locate proc
+  573  locate proc | grep proc
+  574  cd /proc
+  575  ls
+  576  cd 13097
+  577  ls
+  578  cd fd
+  579  ls
+  580  ls -lh
+  581  man ls
+  582  cd ..
+  583  ls
+  584  cd ..
+  585  cd
+  586  cd /proc/
+  587  ls
+  588  ls | grep 13097
+  589  ls | grep 1227
+  590  ls
+  591  touch filevi
+  592  vi filevi
+  593  ls
+  594  gcc filevi
+  595  mv filevi filevi.c
+  596  gcc filevi.c 
+  597  gcc filevi -o binarysearch
+  598  code filevi
+  599  gcc filevi -o binarysearch
+  600  code filevi
+  601  gcc filevi.c -o binarysearch
+  602  ls
+  603  ./binarysearch 
+  604  vi filevi.c
+  605  gcc filevi.c -o binarysearch
+  606  ./binarysearch 
+  607  mv binarysearch /usr/local/bin
+  608  sudo mv binarysearch /usr/local/bin
+  609  cd /usr/local/bin
+  610  ls
+  611  ./binarysearch 
+  612  cd
+  613  binarysearch
+  614  echo &PATH
+  615  echo $PATH
+  616  touch explaination
+  617  gedit explaination 
+  618  cat /etc/shells
+  619  printenv
+  620  cat /etc/shells
+  621  echo $SHELL
+  622  echo \
+  623  alias printpath="echo $PATH"
+  624  printpath
+  625  printenv
+  626  echo $SHELL
+  627  echo \
+  628  printpath
+  629  alias printpath="echo $PATH"
+  630  printpath
+  631  cat .bashrc
+  632  free
+  633  code
+  634  code .
+  635  $HOSTNAME
+  636  echo $HOSTNAME
+  637  echo $(whoami)
+  638  مس
+  639  ls
+  640  ls -lh
+  641  cd
+  642  mkdir dir33
+  643  adduser hassan
+  644  sudo adduser hassan
+  645  cd dir33
+  646  touch myfile
+  647  ls -lh
+  648  chmod ug+rw myfile
+  649  ls -lh
+  650  chmod ug=rw myfile
+  651  ls -lh
+  652  chmod 660 myfile
+  653  ls -lh
+  654  sudo chgrp hr myfile
+  655  addgroup hr
+  656  sudo addgroup hr
+  657  cat /etc/group | hr
+  658  cat /etc/group | grep hr
+  659  usermod -aG hr hassan
+  660  sudo usermod -aG hr hassan
+  661  ls -lh
+  662  cat /etc/group | grep hr
+  663  ls -lh
+  664  sudo chgrp hr myfile
+  665  ls -lh
+  666  echo 1 >> myfile
+  667  cat myfile
+  668  su hassan
+  669  cd 
+  670  /proc/
+  671  cd /proc/
+  672  ls
+  673  cat/cpuinfo
+  674  cat cputinfo
+  675  cat loadavg
+  676  grep cpu
+  677  cd
+  678  Job
+  679  ps -t
+  680  jobs
+  681  job
+  682  sudo chown hassan myfile
+  683  ls -lh
+  684  cat myfile
+  685  sudo usermod -aG hr mohamed
+  686  cat myfile
+  687  su hassan
+  688  gnome-terminal &
+  689  cd githup/
+  690  ls
+  691  cd Embedded-Linux/
+  692  ls
+  693  cd AdminLinux_Task/
+  694  ls
+  695  mkdir task3
+  696  cd task3
+  697  man history
+  698  history
+  699  history > /tmp/command.list
+  700  ls
+  701  history > ./tmp/command.list
+  702  history > ~/github/Embedded-Linux/AdminLinux_Task/task3/tmp/command.list
+  703  mkdir tmp
+  704  ls
+  705  cd tmp
+  706  touch command.list
+  707  ls
+  708  history
+  709  history > command.list
