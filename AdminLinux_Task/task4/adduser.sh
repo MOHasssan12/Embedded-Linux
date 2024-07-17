@@ -4,7 +4,7 @@ username="$1"
 groupname="$2"
 
 
-if id "$username" &>/dev/null; then
+if id "$username" &>/dev/null; then # &> redirect output of id to null and not appear on the terminal 
     echo "User '$username' already exists."
 else
 
