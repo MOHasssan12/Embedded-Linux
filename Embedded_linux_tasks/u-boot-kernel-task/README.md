@@ -66,7 +66,7 @@ make
 #### 2.2. Run ***qemu*** with Emulated SD card
 
 ```
-qemu-system-arm -M vexpress-a9 -m 128M -nographic -kernel ~/u-boot/ -sd ~/sd.img
+sudo qemu-system-arm -M vexpress-a9 -m 128M -nographic -kernel u-boot -sd ~/sd.img -net tap,script=./qemu-ifup -net nic
 ```
 
 ![u-boot](images/u-boot.png)
@@ -106,7 +106,7 @@ fi
 mkimage is a tool that prepares files, such as kernel images, device tree blobs, and ramdisk images, for use with U-Boot. It generates images with headers that include metadata required by U-Boot to properly load and execute them.
 
 ```
-mkimage -A arm -T script -C none -n 'Boot script' -d ~/SCRIPT.txt ~/boot/boot_script.img
+mkimage -A arm -T script -C none -n 'Boot script' -d ~/script.txt ~/boot/boot_script.img
 
 ```
 
@@ -133,6 +133,6 @@ bootz $kernel_addr_r - $fdt_addr_r
 ![kernel](images/kernelpanic.png)
 
 
-
+The kernel beacuse it couldn't find Rootfs
 
     
