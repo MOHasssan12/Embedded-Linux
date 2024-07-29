@@ -18,6 +18,7 @@ sudo cp uRamdisk ~/boot
 
 ```
 
+
 ```
 setenv kernel_addr_r 0x60000000
 setenv fdt_addr_r 0x65000000
