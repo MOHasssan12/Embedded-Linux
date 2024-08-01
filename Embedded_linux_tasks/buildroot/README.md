@@ -188,7 +188,7 @@ create a Buildroot package for an application hosted on GitHub:
 First, set up the directory structure for your Buildroot package:
 
 ```
-mkdir -p ./package/simpleapp/src
+mkdir -p ./package/helloapp/src
 ```
 
 2) Create and Configure Your Package
@@ -196,12 +196,12 @@ mkdir -p ./package/simpleapp/src
 Ensure that your application source code is available in a GitHub repository. For this example, let’s assume your repository URL is https://github.com/username/simpleapp.git.
 
 
-Create simpleapp.mk
+Create helloapp.mk
 
-In the package/simpleapp directory, create a file named simpleapp.mk:
+In the package/helloapp directory, create a file named helloapp.mk:
 
 ```
-touch ./package/simpleapp/simpleapp.mk
+touch ./package/helloapp/helloapp.mk
 ```
 
 Edit this file to include the following content:
@@ -209,21 +209,21 @@ Edit this file to include the following content:
 ```
 ################################################################################
 #
-# simpleapp package
+# helloapp package
 #
 ################################################################################
 
-SIMPLEAPP_VERSION = 1.0
-SIMPLEAPP_SITE = https://github.com/username/simpleapp.git
-SIMPLEAPP_SITE_METHOD = git
-SIMPLEAPP_SITE_VERSION = $(SIMPLEAPP_VERSION)
+HELLOAPP_VERSION = 1.0
+HELLOAPP_SITE = https://github.com/username/helloapp.git
+HELLOAPP_SITE_METHOD = git
+HELLOAPP_SITE_VERSION = $(HELLOAPP_VERSION)
 
-define SIMPLEAPP_BUILD_CMDS
+define HELLOAPP_BUILD_CMDS
     $(MAKE) CC="$(TARGET_CC)" LD="$(TARGET_LD)" -C $(@D)
 endef
 
-define SIMPLEAPP_INSTALL_TARGET_CMDS
-    $(INSTALL) -D -m 0755 $(@D)/simpleapp $(TARGET_DIR)/usr/bin
+define HELLOAPP_INSTALL_TARGET_CMDS
+    $(INSTALL) -D -m 0755 $(@D)/helloapp $(TARGET_DIR)/usr/bin
 endef
 
 $(eval $(generic-package))
@@ -231,34 +231,34 @@ $(eval $(generic-package))
 
 Explanation:
 
--    SIMPLEAPP_SITE: The URL of your GitHub repository.
--    SIMPLEAPP_SITE_METHOD: Specifies that the source should be fetched using Git.
--    SIMPLEAPP_SITE_VERSION: Sets the version tag or branch of the repository to use.
--    SIMPLEAPP_BUILD_CMDS: Commands to build the package, using Buildroot’s cross-compiler.
--    SIMPLEAPP_INSTALL_TARGET_CMDS: Commands to install the package into the target directory.
+-    HELLOAPP_SITE: The URL of your GitHub repository.
+-    HELLOAPP_SITE_METHOD: Specifies that the source should be fetched using Git.
+-    HELLOAPP_SITE_VERSION: Sets the version tag or branch of the repository to use.
+-    HELLOAPP_BUILD_CMDS: Commands to build the package, using Buildroot’s cross-compiler.
+-    HELLOAPP_INSTALL_TARGET_CMDS: Commands to install the package into the target directory.
 
 
 Create Config.in
 
-In the package/simpleapp directory, create a Config.in file:
+In the package/helloapp directory, create a Config.in file:
 
 ```
-touch ./package/simpleapp/Config.in
+touch ./package/helloapp/Config.in
 ```
 Edit Config.in with the following content:
 
 ```
-config BR2_PACKAGE_SIMPLEAPP
-    bool "simpleapp"
+config BR2_PACKAGE_HELLOAPP
+    bool "helloapp"
     help
-        simpleapp package.
+        helloapp package.
 
 ```
 
 Explanation:
 
--    config BR2_PACKAGE_SIMPLEAPP: Defines a configuration option for the package.
--    bool "simpleapp": Indicates it’s a boolean option that can be enabled or disabled.
+-    config BR2_PACKAGE_HELLOAPP: Defines a configuration option for the package.
+-    bool "helloapp": Indicates it’s a boolean option that can be enabled or disabled.
 -    help: Provides a description of the package.
 
 
@@ -272,8 +272,8 @@ vim ./package/Config.in
 ```
 
 ```
-menu "SIMPLEAPP Packages"
-    source "package/simpleapp/Config.in"
+menu "HELLOAPP Packages"
+    source "package/helloapp/Config.in"
 endmenu
 
 ```
@@ -287,8 +287,11 @@ make menuconfig
 
 In the menuconfig interface:
 
--    Navigate to the "SIMPLEAPP Packages" menu.
--    Enable the simpleapp package.
+-    Navigate to the "HELLOAPP Packages" menu.
+-    Enable the helloapp package.
+
+![alt text](image-1.png)
+
 
 4) Build Your System
 
@@ -298,5 +301,5 @@ make -j8
 
 5) Verify the Installation
 
-After the build completes, verify that the simpleapp executable is included in your root filesystem image. You can check the built filesystem image or run it in your target environment.
+After the build completes, verify that the helloapp executable is included in your root filesystem image. You can check the built filesystem image or run it in your target environment.
 
